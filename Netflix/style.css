@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: black;
+}
+.main{
+    background-image: url("images/websitemainpage.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: max(1200px,100vw);
+    position: relative;
+    height: 100vh;
+    color: white;
+
+}
+.box
+{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    top:0;
+}
+nav
+{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    
+}
+nav img
+{
+    color:red;
+    position: relative;
+    z-index: 10;
+}
+nav div{
+    display: flex;
+    gap: 20px;
+}
+nav button
+{
+   position: relative;
+   z-index: 10;
+}
+nav button:first-of-type
+{
+    background-color: rgb(38, 37, 37);
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+nav button:nth-of-type(2)
+{
+    padding:0 20px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size:14px;
+}
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content:center;
+    justify-items: center;
+    text-align: center;
+    position:relative;
+    z-index:20;
+}   
+
+.text >:first-child
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text >:nth-child(2)
+{
+    font-size: 20px;
+}
+.text >:nth-child(3)
+{
+    font-size: 20px;
+}
+.hero
+{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:20px;
+}
+.input
+{
+width: 300px;
+height:50px;
+color:white;
+position: relative;
+border: 0.5px solid white;
+border-radius:5px ;
+font-weight: bold;
+background-color: rgba(23,23,23,0.1);
+}
+.redbutton
+{
+width: 200px;
+height:50px;
+background-color:red;
+opacity: 1;
+position: relative;
+border: 4px white;
+border-radius:5px ;
+font-weight: bold;
+color:white;
+font-size: 26px;
+}
+.seperation
+{
+    height:1vh;
+    background-color: rgb(165, 162, 162);
+    z-index: 10;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    max-width:90vw;
+    height: 80vh;   
+    margin: auto;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.write>:nth-of-type(1)
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+.write>:nth-of-type(2)
+{
+    font-size: 25px;
+}
+.image
+{
+    position: relative;
+}
+.image img{
+    position: relative;
+    width: 40vw;
+    z-index: 10;
+    margin-left: 100px;
+}
+.image video{
+    position: absolute;
+    width: 30vw;
+    top: 90px;
+    right: 75px;
+}
+.faq{
+    margin-top: 70px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.que
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    background-color: rgb(41, 40, 40);
+    width: 75vw;
+    font-size:30px;
+    padding: 20px;
+    text-align: left;
+}
+.call
+{
+    text-align: left;
+    color: rgb(163, 163, 163);
+    font-size: medium;
+    width: 70vw;
+    margin-left: 14vw;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+.table
+{
+    display:grid;
+    color: rgb(163, 163, 163);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 70vw;
+}
+.table>div
+{
+    padding: 10px;
+    
+}
+.table>div>a
+{
+    color: white;
+}
+.last
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgba(23,23,23,1);
+    color: white ;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 14vw;
+    margin-top: 10px;
+}
